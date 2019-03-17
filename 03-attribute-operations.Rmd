@@ -551,7 +551,7 @@ abbreviate(names(world), minlength = 1) %>% dput()
 ```{r 03-attribute-operations-50, eval=FALSE}
 new_names = c("i", "n", "c", "r", "s", "t", "a", "p", "l", "gP", "geom")
 world %>% 
-  set_names(new_names)
+  setNames(new_names)
 ```
 
 It is important to note that attribute data operations preserve the geometry of the simple features.
